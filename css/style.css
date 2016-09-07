@@ -1,0 +1,80 @@
+
+
+
+/*书籍大div*/
+/*.book-warp {
+	max-width: 860px;
+	margin: 10px auto 0;
+	width: 100%;		
+}*/
+
+/*书的抬头*/
+/*.book-h2 {
+	width: 840px !important;
+	height: 84px;
+	margin: 0px !important;
+	background-image: url(../img/bookshelftop.jpg);
+	background-size: 100%;
+}
+.book-div{
+	margin: 0px !important;
+	width: 840px !important;
+	height: 784px !important;
+	background-image: url(../img/bookshelfmiddle.jpg);
+	background-size: 100%;
+	padding: 0 0 0 40px;
+}
+.book-div-main{
+    line-height: 160px;
+    vertical-align: bottom;
+    width: 110px;
+    float: left;
+    margin: 0px 20px 0;
+    padding-bottom: 19px !important;
+}
+
+.book-div a{
+	display: block;
+	height: 160px;
+	line-height: 160px;
+}
+.book-div-main img{
+    width: 110px;
+    vertical-align: bottom;
+    box-shadow: 8px 0 12px #333;
+}*/
+
+
+/*书籍*/
+.book-body{
+	position: absolute;width: 62%; left: 19%; top: 150px; height: auto;
+}
+.book-warp{
+}
+
+.book-top{
+	background-color: pink;
+	background-image: url(../img/bookshelftop.jpg);
+	background-size: 100% 100%;
+	height: 84px;
+}
+.book-main{
+	width: 100%;
+	height: auto;
+	padding-left: 50px;
+	background-image: url(../img/bookshelfmiddle.jpg);
+	background-size: 100% 190px;
+}
+.book-book{
+	position: relative;
+	width: 110px;
+	height: 160px;
+	line-height: 177px;
+	margin: 15px 40px 15px 0px; float: left;
+}
+.book-book img{
+	position: absolute;
+	bottom: 0px;
+	width: 110px;
+    box-shadow: 8px 0 12px #333;
+}
